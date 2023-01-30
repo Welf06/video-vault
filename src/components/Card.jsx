@@ -16,6 +16,7 @@ const url =
 	"https://asia-south1-civic-axon-375910.cloudfunctions.net/get-thumbnail";
 
 function Card({ hit }) {
+   console.log(hit)
 	const [open, setOpen] = useState(false);
 	const [responseData, setResponseData] = useState(null);
 

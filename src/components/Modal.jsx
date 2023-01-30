@@ -14,7 +14,6 @@ const style = {
 };
 
 const Player = ({ url }) => {
-	console.log(url);
 	return (
 		<div>
 			<video
@@ -22,8 +21,8 @@ const Player = ({ url }) => {
 				style={{
 					objectFit: "cover",
 					objectPosition: "center",
-					width: "100%",
-					height: "100%",
+					width: "700px",
+					maxHeight: "90vh",
 					borderRadius: "10px",
 				}}
 			>
