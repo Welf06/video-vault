@@ -30,7 +30,7 @@ function Card({ hit }) {
 
 useEffect(() => {
   axios.post(url, {
-    input_uri: "/video-upload-bucket/funny_cat.mp4"
+    input_uri: hit.input_uri
   })
   .then(response => {
     setResponseData(response.data);
@@ -45,12 +45,12 @@ useEffect(() => {
 			<MUICard sx={{ minWidth: 275 }} onClick={() => setOpen(true)}>
 				<CardContent>
 					<Typography sx={{ fontSize: 14, textAlign: "center" }} color="text.secondary" gutterBottom>
-               {responseData ? <p>{responseData}</p> : <CircularProgress />
+               {hit.input_uri ? <p>{hit.input_uri}</p> : <CircularProgress />
 }
 					</Typography>
 				</CardContent>
 			</MUICard>
-			<Modal open={open} handleClose={() => setOpen(false)} />
+			<Modal open={open} handleClose={() => setOpen(false)} input_uri={hit.input_uri}/>
 		</>
 	);
 }

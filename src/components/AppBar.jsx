@@ -10,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 
 import Card from './Card'
+import logo from "../styles/logo.svg";
 
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, connectSearchBox, Hits, Pagination, Configure } from 'react-instantsearch-dom';
@@ -75,7 +76,22 @@ function SearchAppBar({currentRefinement, isSearchStalled, refine}) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
+            <div style={{
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'left',
+               gap: '10px'
+            }}>
+            <img src={logo} alt="logo"
+               style={{
+                  width: '40px',
+                  height: '40px',
+                  borderRadius: '10%',
+                  objectFit: 'cover'
+               }}
+            />
             Video Vault
+            </div>
           </Typography>
           <Search
           >
@@ -100,7 +116,7 @@ export default function AngoliaSearchAppBar() {
    return (
       <>
       <InstantSearch indexName="firebase-search-index" searchClient={searchClient}>
-      <Configure hitsPerPage={40} />
+      <Configure hitsPerPage={20} />
          <CustomSearchBox />
          <div className='card-container'>
          <Hits hitComponent={Card} />

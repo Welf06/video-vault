@@ -1,9 +1,10 @@
-import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
+
 
 const style = {
 	position: "absolute",
@@ -13,7 +14,7 @@ const style = {
 	width: 700,
 };
 
-const Player = () => {
+const Player = ({url}) => {
 	return (
 		<div>
 			<video controls
@@ -27,7 +28,7 @@ const Player = () => {
             }
          }>
 				<source
-					src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+					src={url}
 					type="video/mp4"
 				/>
 			</video>
@@ -35,7 +36,22 @@ const Player = () => {
 	);
 };
 
-export default function BasicModal({ open, handleClose }) {
+export default function BasicModal({ open, handleClose, input_uri }) {
+   useEffect(() => {
+      if (open) {
+      axios.post("https://asia-south1-civic-axon-375910.cloudfunctions.net/get-video-stream", {
+         input_uri: input_uri
+      })
+      .then(response => {
+         console.log(response.data);
+      }
+      )
+      .catch(error => {
+         console.error(error);
+      }
+      );
+   }
+   }, [open]);
 	return (
 		<div>
 			<Modal
@@ -45,7 +61,7 @@ export default function BasicModal({ open, handleClose }) {
 				aria-describedby="modal-modal-description"
 			>
 				<Box sx={style}>
-               <Player />
+               <Player url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"/>
             </Box>
 			</Modal>
 		</div>

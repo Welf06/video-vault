@@ -4,8 +4,43 @@
       justify-content: center;
       gap: 1rem;
       list-style: none;
+      padding-inline-start: 0;
 }
 
 .ais-Hits{
    padding: 0px 5vw;
+}
+
+.ais-Pagination-list{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   padding: 0;
+}
+
+.ais-Pagination-item{
+   padding: 0.5rem;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #00a27e;
+   color: #fff;
+   text-decoration: none;
+}
+
+.ais-Pagination-item a {
+   color: #fff;
+   text-decoration: none;
+}
+.ais-Pagination-item--disabled{
+   background-color: #155648;
+   color: #ccc;
+   cursor: not-allowed;
+}
+.ais-Pagination-item--firstPage{
+   display: none;
+}
+
+.ais-Pagination-item--selected{
+   transform: scale(1.1);
 }
