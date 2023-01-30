@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Vivault
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React based video search application that allows you to index your video files and search through them.
+
+
+##Features
+- Index video files
+- Search through video files
+ -Simple and user-friendly interface
 
 ## Available Scripts
 
