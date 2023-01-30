@@ -6,7 +6,7 @@ A React based video search application that allows you to index your video files
 ##Features
 - Index video files
 - Search through video files
- -Simple and user-friendly interface
+- Simple and user-friendly interface
 
 ## Available Scripts
 
