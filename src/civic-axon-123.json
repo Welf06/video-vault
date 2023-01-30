@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "civic-axon-375910",
+  "private_key_id": "608cbd52c5ce7c544c72f8468cd726e227fec2dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDxuhdFHI6nb9Zw\nMT3ajS57W/w2WeHurP4nHiWgjzHLNYTrgNdMqWXUsGP5pxlUEblp53Bj2EyAEroR\nGvi2Stuv+jrldUIxhme1E7WyJWBPwZ9PAKhnpF0ZY8U+ax0HMfEaYH31HsTF635V\nwSw1UdZJDCToHO3uUA5keIr6oxPPu80v9Q0gCFo9kOk6zb8AEFtfY/aCHlQhpoQc\nKV9rsKF9DzYj/bNJNvbd0oNBWmjxgWstOvKAHFRsmLLHRFekHCyiswIZ9fBadZNy\no74NBmA4Q0Ts0KRyWY9yCWjdGIfgzlFlsIDXnLCNJ/swA3X7eQOb/mN4wLfKBkW8\nPr0sRhsJAgMBAAECggEAAaWLsAM2XlZgta/3o/rkqTOU0MSPL0FO0Qzg/U7dgJ5p\naFU+3dsEsl+FvNOC7to2Awh7qEExAn3W5M4YfhHdf92J4/ebSJc+PnR1xQFM4Wup\nnbFZ65sYfzdcN/JN9tRYRr6HmSFE7QAvWerEFd0ghhpu4crzHMFWg/Fyl46RFjiu\njCYYXAlDAoe8yHhBvLWQi8TS1xGG4RHzyR+Z4dnjgvulbL44Hbs0H0dHfJkTInme\nowDks49wCvF5PkLpHQwcAwsWj0xGnZ89kRYieAKPQSbTTnhrzTFVO3RTFjq8ivb5\nb2EcQ8B427tz/XFaccBGKrjK6BAXt88RKyXLNf4YIQKBgQD7jxv53Vy0Y8djOPyp\nooGHjqbVVBEFAwTBb7rvRNuvnLtirmmkS977S//Bh9m8N+OAnngTQIEVQ+oz91el\nnmrerJtGhd12bJFemi1G52SizFNgpgNJLF+E7QRf103W1Ugky2yYrBJWvq6KI1We\nTIt52f+WO2JcPSjlMCPQkj3yIQKBgQD1/ovuqX9bc4mM+lU3c42FbIEDqJEVJgN5\ngYJheohkwgWEA0LbWfn0N3fcXIO29Z12DnQ40D5uIw/UuSWsNuRdHXBCvJVgD2As\nFTOcUR+1VndVlfDMX8MgfX5XopSWl2IohCLq9Al08kjVgOmsYd3PP5QIXY1mSWVe\nftIfSHNb6QKBgEaCESRSoEZLZTpxYZgmXUnieO54NqEB/JY/O9UOpsitFHSPUDrl\nrSUgYxoaerPfslt9j0hOHyAXvhA8totMQMYS+R6mLLGhsokii6hA+RsMTB5dybP7\nxPYb/MrkLQQXGbZ+cfzE1gsMPR2o07mf2MQZjyLLmEEkP08l1BQEuWohAoGBAOph\nhRx53QHanMV5QzaZX88vqeE9fDbFSGw+DGcqY8h04OJ+ZPYwzap2KzsH3uu1LDlu\n3ie/qqwvtga9/foPNxjNUsgTfNPQ8pYuAUXAOdECuKMQQSXJXFaZm4aOPrsZNApc\nlBR/Pn9x1hmvQXXgrYGpFze9Q1uhNPeLKFNsKZX5AoGAKnbcaIclgvFW/nQ9pCCR\nr7lMrIcNmFqoButv+cqXgkSNtBCT0Kof1ne//+TeE14+CuTMdJkK+d0jpXVoKn+1\nz+8P+Vf7MCC6GJLRaFghGE55OUlATQXTRaTzrkWzOkDv8wIHLwhVo5Mf8b5gXb4r\nfWrArg5jTphIzX96eoHCAh8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "upload-to-bucket@civic-axon-375910.iam.gserviceaccount.com",
+  "client_id": "106514001530588739961",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/upload-to-bucket%40civic-axon-375910.iam.gserviceaccount.com"
+}
