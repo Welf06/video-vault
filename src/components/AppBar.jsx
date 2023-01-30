@@ -14,7 +14,7 @@ import Card from './Card'
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, connectSearchBox, Hits, Pagination, Configure } from 'react-instantsearch-dom';
 
-const searchClient = algoliasearch(`${process.env.REACT_APP_ANGOLIA_ACCOUNT_ID}`, `${process.env.REACT_APP_ANGOLIA_API_KEY}`);
+const searchClient = algoliasearch(`CPZV9S2DTE`, `$0de91e6202ef79f0b14a0d6065f493fc`);
 
 
 const Search = styled('div')(({ theme }) => ({
