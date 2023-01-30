@@ -44,3 +44,16 @@
 .ais-Pagination-item--selected{
    transform: scale(1.1);
 }
+
+.thumbnail-img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 5px;
+   max-height: 250px;
+   width: auto;
+}
+
+.css-1i9wt8r-MuiCardContent-root:last-child{
+   padding-bottom: 0 !important;
+}

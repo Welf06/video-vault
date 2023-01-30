@@ -90,7 +90,7 @@ function SearchAppBar({currentRefinement, isSearchStalled, refine}) {
                   objectFit: 'cover'
                }}
             />
-            Video Vault
+            Vivault
             </div>
           </Typography>
           <Search

@@ -36,17 +36,18 @@ const Player = ({url}) => {
 	);
 };
 
+const url = "https://asia-south1-civic-axon-375910.cloudfunctions.net/get-video-stream"
 export default function BasicModal({ open, handleClose, input_uri }) {
    useEffect(() => {
       if (open) {
-      axios.post("https://asia-south1-civic-axon-375910.cloudfunctions.net/get-video-stream", {
+      axios.post(url , {
          input_uri: input_uri
       })
-      .then(response => {
-         console.log(response.data);
+      .then((response) => {
+         console.log(response);
       }
       )
-      .catch(error => {
+      .catch((error) => {
          console.error(error);
       }
       );
