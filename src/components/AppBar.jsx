@@ -116,7 +116,7 @@ export default function AngoliaSearchAppBar() {
    return (
       <>
       <InstantSearch indexName="firebase-search-index" searchClient={searchClient}>
-      <Configure hitsPerPage={20} />
+      <Configure hitsPerPage={10} />
          <CustomSearchBox />
          <div className='card-container'>
          <Hits hitComponent={Card} />

@@ -35,7 +35,7 @@ function Card({ hit }) {
 
 	return (
 		<>
-			<MUICard sx={{ minWidth: 275, padding: 0, boxShadow: 0 }} onClick={() => setOpen(true)}>
+			<MUICard sx={{ minWidth: 275, minHeight: 100, padding: 0, boxShadow: 0 }} onClick={() => setOpen(true)}>
 				<CardContent sx={{padding: 0}}>
 						{responseData ? <img src={responseData.data} alt={hit.input_uri} class="thumbnail-img"/> : <CircularProgress />}
 				</CardContent>

@@ -2,7 +2,8 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 1rem;
+      align-items: center;
+      gap: 0.1rem;
       list-style: none;
       padding-inline-start: 0;
 }
@@ -55,5 +56,9 @@
 }
 
 .css-1i9wt8r-MuiCardContent-root:last-child{
+   padding-bottom: 0 !important;
+}
+
+.css-om8fsr:last-child{
    padding-bottom: 0 !important;
 }
