@@ -48,6 +48,21 @@
    background-color: #008d6e;
 }
 
+.css-1i9wt8r-MuiCardContent-root:last-child{
+   padding-bottom: 0 !important;
+}
+
+.css-om8fsr:last-child{
+   padding-bottom: 0 !important;
+}
+
+.thumbnail-card {
+   min-width: 275;
+   min-height: 100;
+   padding: 0;
+   box-shadow: 0,
+}
+
 .thumbnail-img{
    width: 100%;
    height: 100%;
@@ -55,12 +70,9 @@
    border-radius: 5px;
    max-height: 250px;
    width: auto;
-}
-
-.css-1i9wt8r-MuiCardContent-root:last-child{
-   padding-bottom: 0 !important;
-}
-
-.css-om8fsr:last-child{
-   padding-bottom: 0 !important;
+} @media screen and (max-width: 600px) {
+   .thumbnail-img{
+      max-height: 200px;
+      max-width: 90vh;
+   }
 }

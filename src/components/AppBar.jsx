@@ -13,7 +13,7 @@ import Card from './Card'
 import logo from "../styles/logo.svg";
 
 import algoliasearch from 'algoliasearch/lite';
-import { InstantSearch, SearchBox, connectSearchBox, Hits, Pagination, Configure } from 'react-instantsearch-dom';
+import { InstantSearch,  connectSearchBox, Hits, Pagination, Configure } from 'react-instantsearch-dom';
 
 const searchClient = algoliasearch(`CPZV9S2DTE`, `0de91e6202ef79f0b14a0d6065f493fc`);
 
