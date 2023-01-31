@@ -33,6 +33,7 @@
    color: #fff;
    text-decoration: none;
 }
+
 .ais-Pagination-item--disabled{
    background-color: #155648;
    color: #ccc;
@@ -44,6 +45,7 @@
 
 .ais-Pagination-item--selected{
    transform: scale(1.1);
+   background-color: #008d6e;
 }
 
 .thumbnail-img{
